@@ -38,7 +38,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>4E79866C-BDCA-4CD1-AD93-C1658F8BEF89</string>
+				<string>6BD9AF0E-6457-4A2C-A775-F0DD1D785F36</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -50,7 +50,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>7FA10CB5-030F-4747-B391-F586D12370A7</string>
+				<string>28DF51E8-6AE3-4D00-8CD1-92823114AA5A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -62,7 +62,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>CC00215F-6326-48F2-972D-7A80B3470395</string>
+				<string>E234D28D-8BED-4C4E-B798-7EA624EBEF37</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -168,23 +168,29 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>count</key>
-				<integer>1</integer>
-				<key>keychar</key>
-				<string>y</string>
-				<key>keycode</key>
-				<integer>-1</integer>
-				<key>keymod</key>
-				<integer>1048576</integer>
-				<key>overridewithargument</key>
+				<key>concurrently</key>
 				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run
+  	tell application "System Events" to tell process "N₁₀"
+		keystroke "y" using command down
+	end tell
+end run</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.dispatchkeycombo</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>4E79866C-BDCA-4CD1-AD93-C1658F8BEF89</string>
+			<string>6BD9AF0E-6457-4A2C-A775-F0DD1D785F36</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -198,11 +204,11 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>0</integer>
+				<integer>45</integer>
 				<key>hotmod</key>
-				<integer>0</integer>
+				<integer>1835008</integer>
 				<key>hotstring</key>
-				<string></string>
+				<string>N</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -254,23 +260,29 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>count</key>
-				<integer>1</integer>
-				<key>keychar</key>
-				<string>,</string>
-				<key>keycode</key>
-				<integer>-1</integer>
-				<key>keymod</key>
-				<integer>1048576</integer>
-				<key>overridewithargument</key>
+				<key>concurrently</key>
 				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run
+  	tell application "System Events" to tell process "N₁₀"
+		keystroke "," using command down
+	end tell
+end run</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.dispatchkeycombo</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>7FA10CB5-030F-4747-B391-F586D12370A7</string>
+			<string>28DF51E8-6AE3-4D00-8CD1-92823114AA5A</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -335,8 +347,6 @@
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -354,23 +364,29 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>count</key>
-				<integer>1</integer>
-				<key>keychar</key>
-				<string>n</string>
-				<key>keycode</key>
-				<integer>-1</integer>
-				<key>keymod</key>
-				<integer>1048576</integer>
-				<key>overridewithargument</key>
+				<key>concurrently</key>
 				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run
+  	tell application "System Events" to tell process "N₁₀"
+		keystroke "n" using command down
+	end tell
+end run</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.dispatchkeycombo</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>CC00215F-6326-48F2-972D-7A80B3470395</string>
+			<string>E234D28D-8BED-4C4E-B798-7EA624EBEF37</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -389,8 +405,6 @@
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -430,6 +444,13 @@ N10 is a small Alfred workflow that can control the N₁₀ app.
 			<key>ypos</key>
 			<real>15</real>
 		</dict>
+		<key>28DF51E8-6AE3-4D00-8CD1-92823114AA5A</key>
+		<dict>
+			<key>xpos</key>
+			<real>970</real>
+			<key>ypos</key>
+			<real>315</real>
+		</dict>
 		<key>36DFD8E5-24BB-40F0-8FFD-314E36817594</key>
 		<dict>
 			<key>note</key>
@@ -438,13 +459,6 @@ N10 is a small Alfred workflow that can control the N₁₀ app.
 			<real>30</real>
 			<key>ypos</key>
 			<real>215</real>
-		</dict>
-		<key>4E79866C-BDCA-4CD1-AD93-C1658F8BEF89</key>
-		<dict>
-			<key>xpos</key>
-			<real>965</real>
-			<key>ypos</key>
-			<real>115</real>
 		</dict>
 		<key>60CDF901-9B4D-4C02-AC48-62B9860CAC39</key>
 		<dict>
@@ -462,12 +476,12 @@ N10 is a small Alfred workflow that can control the N₁₀ app.
 			<key>ypos</key>
 			<real>415</real>
 		</dict>
-		<key>7FA10CB5-030F-4747-B391-F586D12370A7</key>
+		<key>6BD9AF0E-6457-4A2C-A775-F0DD1D785F36</key>
 		<dict>
 			<key>xpos</key>
-			<real>965</real>
+			<real>970</real>
 			<key>ypos</key>
-			<real>315</real>
+			<real>115</real>
 		</dict>
 		<key>B6D16E9A-10E1-4187-86E7-99BFFBEE52CE</key>
 		<dict>
@@ -485,13 +499,6 @@ N10 is a small Alfred workflow that can control the N₁₀ app.
 			<key>ypos</key>
 			<real>315</real>
 		</dict>
-		<key>CC00215F-6326-48F2-972D-7A80B3470395</key>
-		<dict>
-			<key>xpos</key>
-			<real>965</real>
-			<key>ypos</key>
-			<real>515</real>
-		</dict>
 		<key>DAFF33FB-5DCA-41A1-887F-FF325E3D8A4A</key>
 		<dict>
 			<key>note</key>
@@ -500,6 +507,13 @@ N10 is a small Alfred workflow that can control the N₁₀ app.
 			<real>30</real>
 			<key>ypos</key>
 			<real>615</real>
+		</dict>
+		<key>E234D28D-8BED-4C4E-B798-7EA624EBEF37</key>
+		<dict>
+			<key>xpos</key>
+			<real>970</real>
+			<key>ypos</key>
+			<real>515</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -526,6 +540,8 @@ N10 is a small Alfred workflow that can control the N₁₀ app.
 			<string>keyword</string>
 		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>
